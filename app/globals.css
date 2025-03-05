@@ -29,6 +29,16 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    
+    /* Custom theme colors */
+    --dark-bg: 220 6% 10%;
+    --light-text: 60 14% 95%;
+    --off-white: 60 5% 90%;
+    --lime: 73 93% 68%;
+    --coral: 14 59% 53%;
+    --dark-coral: 14 59% 43%;
+    --dark-button: 220 6% 18%;
+    --darker-button: 220 6% 24%;
   }
 
   .dark {

@@ -52,6 +52,15 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom theme colors
+        darkBg: "hsl(var(--dark-bg))",
+        lightText: "hsl(var(--light-text))",
+        offWhite: "hsl(var(--off-white))",
+        lime: "hsl(var(--lime))",
+        coral: "hsl(var(--coral))",
+        darkCoral: "hsl(var(--dark-coral))",
+        darkButton: "hsl(var(--dark-button))",
+        darkerButton: "hsl(var(--darker-button))",
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -4,7 +4,7 @@ export default function GoToTopButton() {
   return (
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      className="flex items-center gap-2 px-4 py-2 bg-[#e0fa60] text-[#1a1d1f] rounded-lg hover:bg-opacity-90 transition-all duration-300"
+      className="flex items-center gap-2 px-4 py-2 bg-lime text-darkBg rounded-lg hover:bg-opacity-90 transition-all duration-300"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

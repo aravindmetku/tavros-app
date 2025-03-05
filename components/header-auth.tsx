@@ -50,19 +50,19 @@ export default async function AuthButton() {
   }
   return user ? (
     <div className="flex items-center gap-4 px-4">
-      <span className="text-[#e8e9e4]">Hey, {user.email}!</span>
+      <span className="text-lightText">Hey, {user.email}!</span>
       <form action={signOutAction}>
-        <Button type="submit" variant={"outline"} className="text-[#e8e9e4] border-[#e8e9e4] hover:bg-[#2a2d30] hover:border-[#2a2d30] transition-colors duration-200">
+        <Button type="submit" variant={"outline"} className="text-lightText border-lightText hover:bg-darkButton hover:border-darkButton transition-colors duration-200">
           Sign out
         </Button>
       </form>
     </div>
   ) : (
     <div className="flex gap-2 px-4">
-      <Button asChild size="sm" variant={"outline"} className="text-[#e8e9e4] border-[#e8e9e4] hover:bg-[#2a2d30] hover:border-[#2a2d30] transition-colors duration-200">
+      <Button asChild size="sm" variant={"outline"} className="text-lightText border-lightText hover:bg-darkButton hover:border-darkButton transition-colors duration-200">
         <Link href="/sign-in">Sign in</Link>
       </Button>
-      <Button asChild size="sm" className="bg-[#2a2d30] text-[#e8e9e4] hover:bg-[#3a3d40] transition-colors duration-200">
+      <Button asChild size="sm" className="bg-darkButton text-lightText hover:bg-darkerButton transition-colors duration-200">
         <Link href="/sign-up">Sign up</Link>
       </Button>
     </div>

@@ -36,19 +36,19 @@ export default function RootLayout({
         >
           <main className="min-h-screen flex flex-col items-center">
             <div className="flex-1 w-full flex flex-col items-center">
-              <nav className="w-full flex justify-center bg-[#1a1d1f] text-[#FFFDFD] h-16">
+              <nav className="w-full flex justify-center bg-darkBg text-lightText h-16">
                 <div className="container mx-auto flex justify-between items-center p-3 px-5">
                   <div className="text-2xl font-bold">Propsera</div>
                   <div className="hidden md:flex space-x-8 items-center">
-                    <Link href="#features" className="hover:text-[#e0fa60]">Features</Link>
-                    <Link href="#contact" className="hover:text-[#e0fa60]">Contact us</Link>
-                    <Link href="#use-cases" className="hover:text-[#e0fa60]">Use Cases</Link>
+                    <Link href="#features" className="hover:text-lime">Features</Link>
+                    <Link href="#contact" className="hover:text-lime">Contact us</Link>
+                    <Link href="#use-cases" className="hover:text-lime">Use Cases</Link>
                   </div>
                 </div>
                 <HeaderAuth/>
               </nav>
               {children}
-              <footer className="w-full flex items-center justify-center bg-[#1a1d1f] text-[#FFFDFD] py-16">
+              <footer className="w-full flex items-center justify-center bg-darkBg text-lightText py-16">
                 <GoToTopButton />
               </footer>
             </div>
