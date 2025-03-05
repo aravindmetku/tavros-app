@@ -24,15 +24,11 @@ export default function Hero() {
           <ul className="space-y-3 text-[#e8e9e4]">
             <li className="flex items-center space-x-2">
               <span className="w-2 h-2 bg-[#e0fa60] rounded-full"></span>
-              <span>Get latest information, not present in Google Maps</span>
+              <span>Get latest insights from our personal site visits</span>
             </li>
             <li className="flex items-center space-x-2">
               <span className="w-2 h-2 bg-[#e0fa60] rounded-full"></span>
-              <span>Comprehensive risk assessment</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <span className="w-2 h-2 bg-[#e0fa60] rounded-full"></span>
-              <span>Instant notifications</span>
+              <span>Sceduled updates from in-person site check-ins</span>
             </li>
           </ul>
         </div>
