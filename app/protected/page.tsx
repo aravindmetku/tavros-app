@@ -16,12 +16,12 @@ export default async function ProtectedPage() {
 
   return (
     <div className="flex-1 w-full flex flex-col gap-12">
-      <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLScX-UhKmbKFdn0izH7e5y8WpKpehhm3Q_CUSuhLPHjFn-FNug/viewform?embedded=true" 
-        width="640" 
-        height="466" 
-        frameBorder="0" 
-        marginHeight="0" 
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScX-UhKmbKFdn0izH7e5y8WpKpehhm3Q_CUSuhLPHjFn-FNug/viewform?embedded=true"
+        width="640"
+        height="466"
+        frameBorder="0"
+        marginHeight="0"
         marginWidth="0"
       >
         Loading…

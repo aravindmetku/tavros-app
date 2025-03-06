@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "fmt": "prettier --write .",
+    "fmt-check": "prettier --check ."
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.1",

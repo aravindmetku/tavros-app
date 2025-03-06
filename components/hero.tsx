@@ -1,15 +1,16 @@
+import { SITE_CONFIG } from "@/lib/constants";
+
 export default function Hero() {
   return (
     <div className="w-full bg-darkBg text-lightText">
       <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 space-y-8">
           <h1 className="text-5xl font-bold leading-tight">
-            Stay Informed.<br />
+            Stay Informed.
+            <br />
             Stay Ahead of Risks
           </h1>
-          <p className="text-lg text-offWhite">
-            We make your property visits on your behalf
-          </p>
+          <p className="text-lg text-offWhite">{SITE_CONFIG.description}</p>
           <div className="flex space-x-4">
             <input
               type="email"
@@ -49,7 +50,9 @@ export default function Hero() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>Cost effective site visit, Avoid hastle of travelling!</span>
+              <span>
+                Cost effective site visit, Avoid hassle of travelling!
+              </span>
             </li>
             <li className="flex items-center space-x-2">
               <svg

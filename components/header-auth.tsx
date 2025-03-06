@@ -52,17 +52,30 @@ export default async function AuthButton() {
     <div className="flex items-center gap-4 px-4">
       <span className="text-lightText">Hey, {user.email}!</span>
       <form action={signOutAction}>
-        <Button type="submit" variant={"outline"} className="text-lightText border-lightText hover:bg-darkButton hover:border-darkButton transition-colors duration-200">
+        <Button
+          type="submit"
+          variant={"outline"}
+          className="text-lightText border-lightText hover:bg-darkButton hover:border-darkButton transition-colors duration-200"
+        >
           Sign out
         </Button>
       </form>
     </div>
   ) : (
     <div className="flex gap-2 px-4">
-      <Button asChild size="sm" variant={"outline"} className="text-lightText border-lightText hover:bg-darkButton hover:border-darkButton transition-colors duration-200">
+      <Button
+        asChild
+        size="sm"
+        variant={"outline"}
+        className="text-lightText border-lightText hover:bg-darkButton hover:border-darkButton transition-colors duration-200"
+      >
         <Link href="/sign-in">Sign in</Link>
       </Button>
-      <Button asChild size="sm" className="bg-darkButton text-lightText hover:bg-darkerButton transition-colors duration-200">
+      <Button
+        asChild
+        size="sm"
+        className="bg-darkButton text-lightText hover:bg-darkerButton transition-colors duration-200"
+      >
         <Link href="/sign-up">Sign up</Link>
       </Button>
     </div>
