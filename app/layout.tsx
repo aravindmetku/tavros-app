@@ -5,6 +5,7 @@ import Link from "next/link";
 import "./globals.css";
 import { SITE_CONFIG } from "@/lib/constants";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -61,6 +62,7 @@ export default function RootLayout({
             </div>
           </main>
         </ThemeProvider>
+        <Analytics/>
         <SpeedInsights />
       </body>
     </html>
