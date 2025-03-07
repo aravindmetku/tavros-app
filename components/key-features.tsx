@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionLabel from "./section-label";
+import { CheckCircle2 } from "lucide-react";
 
 export default function KeyFeatures() {
   const features = [
@@ -51,7 +52,21 @@ export default function KeyFeatures() {
               <h3 className="text-xl md:text-2xl font-semibold mb-2 md:mb-4 text-white">
                 {features[0].title}
               </h3>
-              <p className="text-sm md:text-base text-white/90">{features[0].description}</p>
+              <p className="text-sm md:text-base text-white/90 mb-4">{features[0].description}</p>
+              <div className="flex gap-4 items-center justify-center">
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-lime" />
+                  <span className="text-sm text-white">Weekly</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-lime" />
+                  <span className="text-sm text-white">Monthly</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-lime" />
+                  <span className="text-sm text-white">Quarterly</span>
+                </div>
+              </div>
             </div>
             <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 h-[250px] md:h-[300px] bg-coral rounded-lg hover:bg-opacity-90 transition-all duration-300">
               <Image
