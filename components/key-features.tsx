@@ -40,7 +40,7 @@ export default function KeyFeatures() {
         </div>
         <div className="flex flex-col md:flex-row gap-2">
           <div className="flex flex-col gap-2 flex-1">
-            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 aspect-square bg-[#c06d4f] rounded-lg hover:bg-opacity-90 transition-all duration-300">
+            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 aspect-square bg-coral rounded-lg hover:bg-opacity-90 transition-all duration-300">
               <Image
                 src={features[0].imagePath}
                 alt={features[0].title}
@@ -53,7 +53,7 @@ export default function KeyFeatures() {
               </h3>
               <p className="text-sm md:text-base text-white/90">{features[0].description}</p>
             </div>
-            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 h-[250px] md:h-[300px] bg-[#c06d4f] rounded-lg hover:bg-opacity-90 transition-all duration-300">
+            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 h-[250px] md:h-[300px] bg-coral rounded-lg hover:bg-opacity-90 transition-all duration-300">
               <Image
                 src={features[2].imagePath}
                 alt={features[2].title}
@@ -68,7 +68,7 @@ export default function KeyFeatures() {
             </div>
           </div>
           <div className="flex flex-col gap-2 flex-1">
-            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 h-[250px] md:h-[300px] bg-[#c06d4f] rounded-lg hover:bg-opacity-90 transition-all duration-300">
+            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 h-[250px] md:h-[300px] bg-coral rounded-lg hover:bg-opacity-90 transition-all duration-300">
               <Image
                 src={features[1].imagePath}
                 alt={features[1].title}
@@ -81,7 +81,7 @@ export default function KeyFeatures() {
               </h3>
               <p className="text-sm md:text-base text-white/90">{features[1].description}</p>
             </div>
-            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 aspect-square bg-[#c06d4f] rounded-lg hover:bg-opacity-90 transition-all duration-300">
+            <div className="flex flex-col items-center justify-center text-center p-6 md:p-16 aspect-square bg-coral rounded-lg hover:bg-opacity-90 transition-all duration-300">
               <Image
                 src={features[3].imagePath}
                 alt={features[3].title}

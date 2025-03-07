@@ -45,6 +45,9 @@ export default function RootLayout({
                     <Link href="#features" className="hover:text-lime">
                       Features
                     </Link>
+                    <Link href="#how-it-works" className="hover:text-lime">
+                      How it Works
+                    </Link>
                     <Link href="#contact" className="hover:text-lime">
                       Contact us
                     </Link>
