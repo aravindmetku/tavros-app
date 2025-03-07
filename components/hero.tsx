@@ -11,7 +11,7 @@ export default function Hero() {
             Stay Ahead of Risks
           </h1>
           <p className="text-lg text-offWhite">{SITE_CONFIG.description}</p>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <input
               type="email"
               placeholder="Enter your email"
@@ -20,7 +20,7 @@ export default function Hero() {
             <button className="bg-lime text-darkBg px-6 py-3 rounded-lg font-medium hover:bg-opacity-90">
               Avail early bird offer
             </button>
-          </div>
+          </div> */}
           <ul className="space-y-3 text-offWhite">
             <li className="flex items-center space-x-2">
               <svg
