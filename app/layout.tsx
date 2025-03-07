@@ -52,7 +52,7 @@ export default function RootLayout({
                     </Link>
                   </div>
                 </div>
-                <HeaderAuth />
+                {/* <HeaderAuth /> */}
               </nav>
               {children}
               <footer className="w-full flex items-center justify-center bg-darkBg text-lightText py-16">
