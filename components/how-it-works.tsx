@@ -18,7 +18,7 @@ export default function HowItWorks() {
     },
     {
       number: 2,
-      title: "Pilot Inspection",
+      title: "Visit",
       description: "We will initiate pilot to visit your property to collect comprehensive information and imagery.",
     },
     {
